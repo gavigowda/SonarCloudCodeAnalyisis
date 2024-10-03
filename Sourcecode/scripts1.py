@@ -28,4 +28,4 @@ def trigger_workflow(workflowname,parameter1,parameter2):
       responsevalue=requests.post(f"https://api.github.com/repos/{OWNER}/{REPO}/dispatches",json=data,headers=headers)
       print(responsevalue.content)
 
-trigger_workflow(workflowname,parameter1,parameter2) ########
+trigger_workflow(workflowname,parameter1,parameter2) ######
